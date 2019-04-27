@@ -1,0 +1,50 @@
+
+.header {
+	box-sizing: border-box; /*размер включает padding и border*/
+	margin-top: 20px; /*отступ от верхнего края*/
+	
+	background-color: white;
+}
+.header_container {
+	box-sizing: border-box;
+	margin: 0 auto; /*отступ по вертикали о, и центрирование по горизонтали*/
+	max-width: 1200px; /*из фотошопа*/
+	height: 60px; /*из фотошопа*/
+}
+.header_logo {
+	float: left;
+	width: 20%;
+	padding-top: 12px; /*60(родитель)-48(картинка)*/
+	
+	text-align: center; /*центрирование по горизонтали */
+}
+.header_nav {
+	float: right;
+	width: 80%;
+	margin-top: 10px;
+}
+/*.nav_menu {
+padding: 10px 0 0 20px;}*/ /*умен.станд.отступа слева до 20 и задали сверху 10*/
+
+.header li {
+	display: inline-block; /* элементы в строку */
+	margin: 0 -2px; /*умен.станд.разм. слева и справа*/
+}
+.header .nav_content {
+	display: block; /*задаем блок, включая padding*/
+	padding: 12px;
+	border-radius: 2px; /*скругление рамки*/
+	
+	font: 14px "LatoRegular", sans-serif;
+	color: #7b7b7b;
+	text-decoration: none; /* без подчеркивания */
+	text-transform: uppercase; /*заглавные*/
+}
+.header .nav_content.activ {
+	background: #ffbb42;
+	color: white;
+}
+.header_clearfix {
+    display: block;
+    clear: both; /*отменяем обтекание слева и справа*/
+}

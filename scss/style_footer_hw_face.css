@@ -1,0 +1,70 @@
+
+footer {
+    width: 1700px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_container {
+	box-sizing: border-box;
+	margin: 0 auto; /*отступ по вертикали о, и центрирование по горизонтали*/
+	width: 1200px; /*из фотошопа*/
+	height: 150px; /*из фотошопа*/
+	text-align: center;
+}
+
+.footer_nav {
+	box-sizing: border-box;
+}
+/*.nav_menu {
+padding: 10px 0 0 20px;}*/ /*умен.станд.отступа слева до 20 и задали сверху 10*/
+
+.nav_menu {
+	margin: 0;
+	padding: 0;
+}
+footer li {
+	display: inline-block; /* элементы в строку */
+	margin: 0 -2px; /*умен.станд.разм. слева и справа*/
+}
+footer .nav_content {
+	display: block; /*задаем блок, включая padding*/
+	padding: 12px;
+	border-radius: 2px; /*скругление рамки*/
+	
+	font: 14px "LatoRegular", sans-serif;
+	color: #7b7b7b;
+	text-decoration: none; /* без подчеркивания */
+	text-transform: uppercase; /*заглавные*/
+}
+
+.footer_clearfix {
+    display: block;
+    clear: both; /*отменяем обтекание слева и справа*/
+}
+
+.nomer {
+	margin: 10px 0 20px 0;
+	font: 20px "LatoRegular", sans-serif;
+	color: #7b7b7b;
+	text-transform: uppercase; /*заглавные*/
+}
+
+.social_media {
+	width: 104px;
+	height: 18px;
+	margin-bottom: 50px;
+	background: url(../img/social_media.png) no-repeat center center;
+}
+
+.end_end {
+    padding: 15px 0;
+
+	background-color: #709dca;
+
+	text-align: center;
+
+    font: 13px "OpenSansRegular", sans-serif ;
+    color: white;
+}

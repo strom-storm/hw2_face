@@ -1,0 +1,271 @@
+.banner {
+	background: #709dca; /*из фотошопа*/
+}
+
+.banner_container {
+    text-align: center; /*центрирование контента*/
+}
+
+.banner_title, .banner_text  {
+color: white;
+}
+
+.banner_title {
+    font: bold 35px "GothamPro-Black", sans-serif;  /*из фотошопа*/
+    text-transform: uppercase; /*заглавные*/
+}
+.banner_text  {
+    font: 16px "OpenSans Light", sans-serif;
+}
+
+.registr form input {
+	border: none; /*отменяем станд. border*/
+	border-radius: 2px;
+	
+	font: 14px "OpenSans", sans-serif; /*из фотошопа*/
+}
+
+.registr form input[type="submit"] {
+    background-color: #ffbb42;
+
+    color: white;
+    text-transform: uppercase;
+}
+
+input#person { /*фон-иконка*/
+    background: white url(../img/2_person.png) no-repeat 5% center;
+}
+input#email { /*фон-иконка*/
+    background: white url(../img/2_email.png) no-repeat 5% center;
+}
+input#tel { /*фон-иконка*/
+    background: white url(../img/2_tel.png) no-repeat 5% center;
+}
+
+.smart-content {
+text-align: center;
+}
+
+.head {
+    text-align: center; /*центрирование контента*/
+}
+
+.head_title, .head_text  {
+color: #394b50;
+}
+
+.head_title {
+    font: bold 30px "GothamProBlack", sans-serif;  /*из фотошопа*/
+    text-transform: uppercase; /*заглавные*/
+}
+.head_text  {
+    font: 16px "OpenSansLight", sans-serif;
+}
+
+.content_title {
+	font: bold 16px "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #394b50;
+}
+.content_text {
+    font: 13px "OpenSans", sans-serif;
+    color: #7b7b7b;
+    margin-top: 20px;
+}
+
+.left.service1 { /*фон-иконка*/
+    background: white url(../img/3_clock.png) no-repeat left center;
+}
+
+.right.service2 { /*фон-иконка*/
+    background: white url(../img/3_icon_design.png) no-repeat left center;
+}
+.left.service3 { /*фон-иконка*/
+    background: white url(../img/3_icon_form.png) no-repeat left center;
+}
+
+.right.service4 { /*фон-иконка*/
+    background: white url(../img/3_icon_retina.png) no-repeat left center;
+}
+.left.service5 { /*фон-иконка*/
+    background: white url(../img/3_icon_code.png) no-repeat left center;
+}
+
+.right.service6 { /*фон-иконка*/
+    background: white url(../img/3_icon_flat.png) no-repeat left center;
+}
+
+.about-us {
+	background-color: #ffbb42 ;
+}
+
+.about-us .head_title,
+.about-us .content_text {
+	color: white;
+}
+
+.about-us .content_text {
+    line-height: 24px;
+}
+
+input[type="button"] {
+	background-color: #ffbb42;
+    border: 1px solid #e7ad48;
+    border-radius: 3px;
+
+    font: 14px "LatoRegular", sans-serif;
+    color: white;
+    text-transform: uppercase;
+}   	
+
+.pricing {
+    background-color: #e7edf3;
+    text-align: center;
+}
+
+.price_basic,
+.price_gold,
+.price_premium {
+    background-color: white;
+}
+
+.price_title {
+   font: 25px "Lato", sans-serif;	
+   text-transform: uppercase;
+}
+
+.price_cost {
+    font: bold 55px "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #ffbb42;
+}
+
+.price_text {
+    font: 14px "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #818b95;
+}
+
+.price_info {
+    border-top: 1px solid #e2e9f0;
+
+    list-style: none;
+    color: #b5bbc1;
+    text-transform: uppercase;
+} 
+ 
+.pricing .activ {
+    background-color: #709dca;
+}
+
+.activ .price_title, 
+.activ .price_cost,
+.activ .price_text,
+.activ .price_info {
+	color: white;
+}
+
+.icon.step1 {
+    background: url(../img/6_step1.png) no-repeat 50% center;
+}
+.icon.arrowdown {
+    background: url(../img/6_arrowdown.png) no-repeat 50% 5%;
+}
+.icon.step2 {
+    background: url(../img/6_step2.png) no-repeat 50% center;
+}
+.icon.arrowup {
+    background: url(../img/6_arrowup.png) no-repeat 50% 95%;
+}
+.icon.step3 {
+    background: url(../img/6_step3.png) no-repeat 50% center;
+}
+.icon.step4 {
+    background: url(../img/6_step4.png) no-repeat 50% center;
+}
+
+.step_title {
+    font: bold 20px "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.work_step1,
+.work_step2,
+.work_step3,
+.work_step4 {
+    text-align: center;
+}
+
+.step__text {
+    font: 13px/22px "OpenSansRegular", sans-serif;
+    color: #7b7b7b;
+}
+
+.clients {
+    background: #ffbb42;
+}
+
+.clients .head_title,
+.clients .head_text {
+	color: white;
+}
+
+.content_name,
+.content_profession {
+	margin-top: 25px;
+    font-family: 14px "LatoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #f6772c;
+}
+    
+.portrait_all .content_profession {
+	color: #99a9ae;
+}
+
+.portrait_1,
+.portrait_2,
+.portrait_3,
+.portrait_4 {
+    background-color: white;
+}
+
+.portrait_all .content_text {
+line-height: 22px;
+}
+
+.portrait_1 .portrait_icon {
+    background: url(../img/7_client1.png) no-repeat 50% 20%;
+}
+
+.portrait_2 .portrait_icon {
+    background: url(../img/7_client2.png) no-repeat 50% 20%;
+}
+
+.portrait_3 .portrait_icon {
+    background: url(../img/7_client3.png) no-repeat 50% 20%;
+}
+
+.portrait_4 .portrait_icon {
+    background: url(../img/7_client4.png) no-repeat 50% 20%;
+}
+
+.newsletter .registr form input {
+    border: 1px solid #99a9ae;
+}
+
+.newsletter .map {
+    background: url(../img/8_map.png) no-repeat 50% 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
